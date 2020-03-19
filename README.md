@@ -4,7 +4,9 @@ Being trapped indoors has me wanting for some new TV series to watch. Let's buil
 
 Also, I watch a lot of TV so you're going to have to get creative...
 
-*You can use the boilerplate code to test your 
+*You can use the boilerplate files to test your code.*
+
+--
 
 1. Create a TV Series class in JavaScript. It should initialize with the following properties: title, number of seasons, streaming service, genre, years.
 
