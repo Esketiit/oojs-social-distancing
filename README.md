@@ -1,12 +1,11 @@
 # Alleviate Steven's Boredom During Social-Distancing
 
----
 
->Being trapped indoors has me wanting for some new TV series to watch. Let's build something using Object Oriented JavaScript to make a playlist of stuff I should binge while social distancing. 
->
->Also, I watch a lot of TV so you're going to have to get creative...
->
->*You can use the boilerplate files to test your code.*
+**Being trapped indoors has me wanting for some new TV series to watch. Let's build something using Object Oriented JavaScript to make a playlist of stuff I should binge while social distancing.**
+
+**Also, I watch a lot of TV so you're going to have to get creative...**
+
+*You can use the boilerplate files to test your code.*
 
 ---
 
@@ -94,7 +93,7 @@ strangerThings.__proto__ === tvSeries.prototype // what will the return of this 
 
 ---
 
-> I'm also getting into gaming during this period of isolation. Let's start building a role playing game for me to play while I'm bore.
+**I'm also getting into gaming during this period of isolation. Let's start building a role playing game for me to play while I'm bored.**
 
 ---
 
