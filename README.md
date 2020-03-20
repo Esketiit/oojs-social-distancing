@@ -1,10 +1,12 @@
 # Build Steven a Binge-Watching List in OOJS
 
-Being trapped indoors has me wanting for some new TV series to watch. Let's build something using Object Oriented JavaScript to make a playlist of stuff I should binge while social distancing. 
+---
 
-Also, I watch a lot of TV so you're going to have to get creative...
-
-*You can use the boilerplate files to test your code.*
+>Being trapped indoors has me wanting for some new TV series to watch. Let's build something using Object Oriented JavaScript to make a playlist of stuff I should binge while social distancing. 
+>
+>Also, I watch a lot of TV so you're going to have to get creative...
+>
+>*You can use the boilerplate files to test your code.*
 
 ---
 
@@ -64,4 +66,58 @@ Also, I watch a lot of TV so you're going to have to get creative...
 
 ```html
 <div id="container"></div>
+```
+
+9. What is a `prototype`? What purpose does it serve in JavaScript?
+
+```
+
+```
+
+10. What will be the return of the following expression? Why? 
+
+```javascript
+
+let strangerThings = new tvSeries({
+  title: "Stranger Things", 
+  numberOfSeason: 3, 
+  service: "Netflix", 
+  genre: "Science Fiction", years: "2016-2019"
+  })
+
+strangerThings.__proto__ === tvSeries.prototype // what will the return of this expression be?
+```
+
+```
+
+```
+
+---
+
+> I'm also getting into gaming during this period of isolation. Let's start building a role playing game for me to play while I'm bore.
+
+---
+
+11. Let's shift our domain to video games. Create a `Hero` class with a constructor that accepts `name`, `age`, and `damagePoints` properites. 
+
+```javascript
+
+```
+
+12. Create a `Warrior` class that inherits from `Hero`. Its constructor should accept the same parameters as `Hero` in addition to `weaponType` (e.g., sword, battle axe, spear, club, etc.).
+
+```javascript
+
+```
+
+13. Create a `Mage` class that inherits from `Hero`. Its constructor should accept the same parameters as `Hero` in addition to `talisman` (e.g., staff, wand, rabbit foot, I don't know...).
+
+```jasvascript
+
+```
+
+14. Create a function that allows any given hero to attack an enemy. The function should return a string like this: `Conan the Barbian has attacked you with a needlessly large sword! You have receive 10 damage points!`. (Hint: Where will this method go? How will you make it work for any given subclass, including ones we might add in the future - e.g. dwarf, dark elf, baker, etc.)
+
+```javascript
+
 ```
