@@ -1,11 +1,18 @@
 # Alleviate Steven's Boredom During Social-Distancing
 
-
 **Being trapped indoors has me wanting for some new TV series to watch. Let's build something using Object Oriented JavaScript to make a playlist of stuff I should binge while social distancing.**
 
-**Also, I watch a lot of TV so you're going to have to get creative...**
+Here are some helpful resources to look at while you answer these questions:
+* [MDN Docs - "Classes"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+* [JAVASCRIPT.INFO - "Classes"](https://javascript.info/classes)
+* [JS in Plain English - Introduction to JavaScript: Classes](https://medium.com/javascript-in-plain-english/introduction-to-javascript-classes-26010eabd6eb)
+* [JavaScript For Beginners - The ‘new’ operator](https://codeburst.io/javascript-for-beginners-the-new-operator-cee35beb669e)
+* [MDN Docs - "new" operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new)
+* [MDN Docs - Inheritance and the prototype chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+* [JAVASCRIPT.INFO - "Prototypes"](https://javascript.info/prototypes)
 
-*You can use the boilerplate files to test your code.*
+
+*NOTE: You can use the boilerplate files to test your code.*
 
 ---
 
@@ -41,11 +48,13 @@
 
 ```javascript
 
+
 ```
 
 5. Create an instance method called `render` that accepts a DOM node as an argument and appends the div from above onto it.
 
 ```javascript
+
 
 ```
 
@@ -67,7 +76,11 @@
 <div id="container"></div>
 ```
 
-9. What is a `prototype`? What purpose does it serve in JavaScript?
+```javascript
+
+```
+
+9. What is a `prototype`? What purpose does it serve in JavaScript? What is the difference between `__proto__` and `prototype`?
 
 ```
 
@@ -100,6 +113,7 @@ strangerThings.__proto__ === tvSeries.prototype // what will the return of this 
 11. Let's shift our domain to video games. Create a `Hero` class with a constructor that accepts `name`, `age`, and `damagePoints` properites. 
 
 ```javascript
+
 
 ```
 
